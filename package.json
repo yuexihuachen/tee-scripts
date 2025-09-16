@@ -1,0 +1,20 @@
+{"name": "tee-scripts",
+  "version": "1.0.1",
+  "description": "Common scripts for use in my blog project",
+  "engines": {
+    "node": ">= 20",
+    "npm": ">= 10.8"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yuexihuachen/tee-scripts.git"
+  },
+  "bin": "./bin/tee-scripts.js",
+	"dependencies": {
+		"cross-spawn": "^7.0.6",
+		"debug": "^4.4.3",
+		"resolve": "^1.22.10",
+		"which": "^5.0.0"
+	}
+}
