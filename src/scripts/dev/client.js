@@ -9,7 +9,7 @@ if (!bin) {
 
 const result = spawn.sync(
   bin,
-  ['build','--watch'],
+  ['build','--watch','--mode', 'development'],
   { stdio: 'inherit', cwd: './client' },
 );
 
