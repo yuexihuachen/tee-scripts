@@ -1,5 +1,5 @@
 {"name": "tee-scripts",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Common scripts for use in my blog project",
   "engines": {
     "node": ">= 20",
