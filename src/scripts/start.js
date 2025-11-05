@@ -11,7 +11,7 @@
  
  const result = spawn.sync(
    bin,
-   ['bun', 'run', './src/index.ts'],
+   ['run', './src/index.ts'],
    { stdio: 'inherit', cwd: './server' },
  );
  
